@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #5679be; /* Set your desired background color */
+}
+
+.tab {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.admin, .adder, .edit-book {
+    margin-bottom: 20px;
+}
+
+.logout, .add-books {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #61dafb; /* Set your desired button background color */
+    color: #fff; /* Set your desired button text color */
+    border: none;
+    border-radius: 4px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+thead {
+    background-color: #444;
+}
+
+th {
+    color: #fff;
+}
+
+.booksContainer tr:nth-child(even) {
+    background-color: #555;
+}
+
+.booksContainer tr:hover {
+    background-color: #666;
+}

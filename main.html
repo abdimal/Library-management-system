@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainstyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="zer">
+        <div class="admin">
+            <button class="welcome">Welcome to Talanta Library</button>
+        </div>
+        
+        <div class="tab">
+            <button class="logout" onclick="logout()">Logout</button>
+
+            <div class="adder">
+                <h1>Add Book</h1>
+                <input placeholder="Enter the name of the book" class="name"/><br>
+                <input type="number"  placeholder="Enter the total number of books" class="total"/><br>
+                <button class="add-books" onclick="addBook()" >ADD BOOKS</button>
+            </div>
+            <div class="edit-book"></div>
+            <table border="1" style="color:rgb(255, 255, 255);">
+                <thead>
+                    <th>#</th>
+                    <th>Book Name</th>
+                    <th>Total</th>
+                    <th>Available</th>
+                    <th>Action</th>
+                </thead>
+
+                <tbody class="booksContainer">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+</html>
